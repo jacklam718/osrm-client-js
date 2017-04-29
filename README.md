@@ -1,4 +1,4 @@
-# osrm.js
+# osrm-client-js
 
 [![Build Status](https://travis-ci.org/Project-OSRM/osrm.js.svg?branch=master)](https://travis-ci.org/Project-OSRM/osrm.js)
 
@@ -13,7 +13,7 @@ Can be used with NodeJS and with browserify.
 # Example
 
 ```js
-var OSRM = require('osrm.js');
+var OSRM = require('osrm-client-js');
 
 var osrm = new OSRM("https://router.project-osrm.org");
 
@@ -71,4 +71,3 @@ osrm.request('/route/v1/driving/13.438640,52.519930;13.415852,52.513191', functi
 npm test # run node tape tests
 firefox test.html # check the console if tape tests worked
 ```
-
